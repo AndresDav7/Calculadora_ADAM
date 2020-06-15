@@ -15,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //LLama al splashteme que ya creamos
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         pantalla =(EditText)findViewById(R.id.tv1);
