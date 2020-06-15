@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //LLama al splashteme que ya creamos
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         pantalla =(EditText)findViewById(R.id.tv1);
@@ -160,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         }else if (ope==2){
             res=operan1-operan2;
         }else if (ope==3){
-            if (operan2==0){
+            if (operan2==0.0){
                 pantalla.setText("MATH ERROR");
             }else {
                 res=operan1*operan2;
